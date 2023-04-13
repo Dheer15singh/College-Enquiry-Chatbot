@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hello", "Is anyone there?","Hey","hy", "Hello"],
+         "responses": ["Hello,Welcome to Prestige how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "Course",
+         "patterns": ["Course", "branch", "Branch"],
+         "responses": [" CSE, EC, EE, CE, ME, AIDS"],
+         "context": [""]
+        },
+        {"tag": "FEEs",
+         "patterns": ["Fees", "fee"  ],
+         "responses": ["72000/year For CSE,72000/year For AIDS,72000/year For EC,58,000/year For ME"],
+         "context": [""]
+        },
+        {"tag": "Placement",
+         "patterns": ["placement", "company"],
+         "responses": ["company","google","Hexaware"],
+         "context": [""]
+        },
+        {"tag": "Admission",
+         "patterns": ["admission", "Admission" ],
+         "responses": ["PIMR Indore Admissions are offered to UG, PG and doctoral programmes. PIMR Indore admissions are offered in the branches such as Management and Business Administration, Commerce, Arts Humanities and Sciences, Media, Mass Communication and Journalism, Law and Computer Application, etc. PIMR Indore courses offered for admissions are B.A., L.L.B., M.B.A., M.B.A. part-time, L.L.M, M.M.C, B.com Hons, B.C.A, L.L.B Hons, etc. and diploma in event management and public relations and Ph.D programmes. Admission to several undergraduate and postgraduate courses such as B.B.A, B.A.L.L.B., L.L.M, M.M.C, B.com Hons, B.C.A, L.L.B Hons are offered based on eligibility criteria and on the merit of the qualifying examination."],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "facilities",
+         "patterns": ["facilities","Facilities"],
+         "responses": ["Students and faculty members have access to modern amenities on the university's campus. PIMR Indore facilities include separate hostels for boys and girls, as well as a library, gym, and canteen. Students interested in sports can use the sports facilities at PIMR Indore. The university provides various types of sports. Prestige Institute of Management and Research facilities include an auditorium, a medical centre, and IT infrastructure. The institute's library is well-equipped, vast, and fully computerised, with around 40,524 books and reports/monographs on a wide range of management, computer applications, and related disciplines. "],
+         "context": [""]
+        } 
+   ]
+}
